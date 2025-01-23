@@ -2635,7 +2635,7 @@
 				)
 			)
 		)
-		(symbol "SparkFun-Connector:Audio Jack TRRS 3.5mm SMD"
+		(symbol "SparkFun-Connector:Audio_Jack_TRRS_3.5mm_SMD"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2682,7 +2682,7 @@
 					(hide yes)
 				)
 			)
-			(property "PROD-ID" "CONN-10676"
+			(property "PROD_ID" "CONN-10676"
 				(at 0 -16.51 0)
 				(effects
 					(font
@@ -2709,7 +2709,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Audio Jack TRRS 3.5mm SMD_0_1"
+			(symbol "Audio_Jack_TRRS_3.5mm_SMD_0_1"
 				(rectangle
 					(start -6.35 -5.08)
 					(end -7.62 -7.62)
@@ -2781,7 +2781,7 @@
 					)
 				)
 			)
-			(symbol "Audio Jack TRRS 3.5mm SMD_1_1"
+			(symbol "Audio_Jack_TRRS_3.5mm_SMD_1_1"
 				(pin passive line
 					(at 5.08 -2.54 180)
 					(length 2.54)
@@ -2856,7 +2856,7 @@
 				)
 			)
 		)
-		(symbol "SparkFun-Connector:Conn_01x03"
+		(symbol "SparkFun-Connector:Conn_01x04"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -2868,20 +2868,18 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Footprint" "SparkFun-Connector:1x03"
-				(at 0 -7.62 0)
+			(property "Footprint" "SparkFun-Connector:1x04"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2890,7 +2888,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 -8.89 0)
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2898,8 +2896,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 -11.43 0)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2925,7 +2923,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x03_1_1"
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
 					(start -1.27 -2.413)
 					(end 0 -2.667)
@@ -2961,7 +2970,7 @@
 				)
 				(rectangle
 					(start -1.27 3.81)
-					(end 1.27 -3.81)
+					(end 1.27 -6.35)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3017,6 +3026,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4753,6 +4780,198 @@
 				)
 			)
 		)
+		(symbol "SparkFun-Jumper:Jumper_Measure"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Measure"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SparkFun-Jumper:Jumper_2_PTH_SMD_Combo-NC"
+				(at -0.254 -4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SparkFun solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_Measure_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Jumper_Measure_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SparkFun-Jumper:SolderJumper_2_Bridged"
 			(pin_numbers hide)
 			(pin_names
@@ -5761,6 +5980,149 @@
 				)
 			)
 		)
+		(symbol "SparkFun-Resistor:10k_0603"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10k"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SparkFun-Resistor:R_0603_1608Metric"
+				(at 0 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PROD_ID" "RES-00824"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SparkFun R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "10k_0603_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0) (xy -1.143 1.016) (xy -0.762 0) (xy -0.381 -1.016) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.381 1.016) (xy 0.762 0) (xy 1.143 -1.016) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "10k_0603_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SparkFun-Resistor:1k_0603"
 			(pin_numbers hide)
 			(pin_names
@@ -6610,13 +6972,13 @@
 		)
 	)
 	(junction
-		(at 50.8 111.76)
+		(at 196.85 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "01a807f3-ee32-4d62-ae36-29d731c54656")
+		(uuid "4cf7566b-6e6a-47bc-8896-fb756ddab395")
 	)
 	(junction
-		(at 50.8 132.08)
+		(at 50.8 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d68cb25-6eca-4b77-9eef-208ce2f65a5b")
@@ -6628,7 +6990,7 @@
 		(uuid "61e374c0-5069-4046-95c5-f3c396e5f33e")
 	)
 	(junction
-		(at 198.12 49.53)
+		(at 194.31 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65921048-269a-45d1-b5fa-0ec680c518f5")
@@ -6637,7 +6999,7 @@
 		(at 48.26 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "65cff3f6-cde4-43bd-8df2-4cafafa6cb7a")
+		(uuid "8eff9bc1-311c-429f-ac56-4fa8ebcf50d0")
 	)
 	(junction
 		(at 119.38 120.65)
@@ -6650,12 +7012,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "acedcd0a-6fc3-4aca-9b53-f68eeddebcbe")
-	)
-	(junction
-		(at 49.53 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b0ce29ad-1661-4871-b00a-b22981b7db60")
 	)
 	(junction
 		(at 132.08 120.65)
@@ -6674,6 +7030,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8f232d2-bdf5-4192-a4db-43c5b639cb81")
+	)
+	(junction
+		(at 49.53 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fefa912a-cda0-471d-9bf6-8713f686e3f2")
 	)
 	(wire
 		(pts
@@ -6707,6 +7069,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 116.84) (xy 41.91 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0897bc39-4bea-4176-8753-7a917f36318e")
+	)
+	(wire
+		(pts
 			(xy 203.2 102.87) (xy 203.2 106.68)
 		)
 		(stroke
@@ -6717,17 +7089,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 114.3) (xy 229.87 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09f18621-235d-4e68-bbf1-325a5bbcc846")
-	)
-	(wire
-		(pts
-			(xy 195.58 46.99) (xy 203.2 46.99)
+			(xy 191.77 46.99) (xy 203.2 46.99)
 		)
 		(stroke
 			(width 0)
@@ -6744,6 +7106,16 @@
 			(type default)
 		)
 		(uuid "0bf2da75-5e1c-4a80-b1fd-e3ba03c3e7cf")
+	)
+	(wire
+		(pts
+			(xy 54.61 125.73) (xy 54.61 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c7c65c5-ec50-4825-80e1-f0928977ffd5")
 	)
 	(wire
 		(pts
@@ -6777,16 +7149,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 116.84) (xy 49.53 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "151ec0a0-e3dc-422d-939d-713e6f1d97cd")
-	)
-	(wire
-		(pts
 			(xy 224.79 45.72) (xy 224.79 44.45)
 		)
 		(stroke
@@ -6804,6 +7166,26 @@
 			(type default)
 		)
 		(uuid "194d0fc9-f469-46df-b27d-a46e89b2d782")
+	)
+	(wire
+		(pts
+			(xy 240.03 114.3) (xy 238.76 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "198d877a-b011-4f10-b5bd-fe7b84e5f74e")
+	)
+	(wire
+		(pts
+			(xy 46.99 113.03) (xy 48.26 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b321104-9a3f-4a21-80fe-5b128ecd4d35")
 	)
 	(wire
 		(pts
@@ -6847,6 +7229,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 116.84) (xy 52.07 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "222363f8-3c80-4748-84d9-5b5be3cc926d")
+	)
+	(wire
+		(pts
 			(xy 201.93 35.56) (xy 201.93 36.83)
 		)
 		(stroke
@@ -6874,6 +7266,16 @@
 			(type default)
 		)
 		(uuid "242c8f85-e3de-4183-ba67-405510dfdc15")
+	)
+	(wire
+		(pts
+			(xy 49.53 129.54) (xy 49.53 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24b2ca7b-ee2f-447a-af67-1db10518ae36")
 	)
 	(wire
 		(pts
@@ -6907,13 +7309,23 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 132.08) (xy 52.07 132.08)
+			(xy 50.8 134.62) (xy 55.88 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "28916d33-5823-4f9e-9625-c4189d1cfe8d")
+	)
+	(wire
+		(pts
+			(xy 233.68 111.76) (xy 229.87 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32d4506c-6d36-465e-81fc-a2099afc2c15")
 	)
 	(wire
 		(pts
@@ -6927,7 +7339,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 52.07) (xy 203.2 52.07)
+			(xy 191.77 52.07) (xy 203.2 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6957,6 +7369,26 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 109.22) (xy 229.87 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39c02dba-713f-43d8-9def-942102cb1907")
+	)
+	(wire
+		(pts
+			(xy 26.67 109.22) (xy 52.07 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39d74f22-64fa-4207-b390-c9fbed624f1b")
+	)
+	(wire
+		(pts
 			(xy 34.29 67.31) (xy 34.29 68.58)
 		)
 		(stroke
@@ -6977,7 +7409,17 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 49.53) (xy 198.12 49.53)
+			(xy 196.85 45.72) (xy 196.85 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "444cd925-70e8-43aa-adb7-da804dd340e6")
+	)
+	(wire
+		(pts
+			(xy 191.77 49.53) (xy 194.31 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6987,7 +7429,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 49.53) (xy 203.2 49.53)
+			(xy 194.31 49.53) (xy 203.2 49.53)
 		)
 		(stroke
 			(width 0)
@@ -7004,16 +7446,6 @@
 			(type default)
 		)
 		(uuid "5140f1d8-09f8-47dd-abb4-8487b6651406")
-	)
-	(wire
-		(pts
-			(xy 52.07 127) (xy 49.53 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53fc68de-a717-478a-b3da-a7aacb195528")
 	)
 	(wire
 		(pts
@@ -7037,13 +7469,23 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 129.54) (xy 48.26 114.3)
+			(xy 48.26 132.08) (xy 48.26 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6242a1b2-7e36-46c8-9d9d-734d951925d0")
+	)
+	(wire
+		(pts
+			(xy 55.88 127) (xy 54.61 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64c93dc2-3a3d-4d6f-a27b-cf9678877490")
 	)
 	(wire
 		(pts
@@ -7054,6 +7496,16 @@
 			(type default)
 		)
 		(uuid "69b9c9d4-1e22-4af3-8bd5-82a86eca1e76")
+	)
+	(wire
+		(pts
+			(xy 46.99 116.84) (xy 49.53 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b4d687d-40c9-4cc8-90e8-144c7602e3d1")
 	)
 	(wire
 		(pts
@@ -7077,6 +7529,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 54.61) (xy 196.85 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70784bb4-7249-4790-997c-19871b93fcfa")
+	)
+	(wire
+		(pts
 			(xy 111.76 36.83) (xy 113.03 36.83)
 		)
 		(stroke
@@ -7097,13 +7559,13 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 49.53) (xy 198.12 54.61)
+			(xy 194.31 49.53) (xy 194.31 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "754996e7-efd9-4ea8-adf5-e6ea479a3269")
+		(uuid "74643eec-7c4c-4ef3-bc3c-9f6488c770ac")
 	)
 	(wire
 		(pts
@@ -7157,26 +7619,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 116.84) (xy 52.07 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "801c5ca3-ca4e-4df5-a139-e36544a9a540")
-	)
-	(wire
-		(pts
-			(xy 46.99 114.3) (xy 48.26 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8165a0f3-3f11-4c33-a61a-af982c2a0338")
-	)
-	(wire
-		(pts
 			(xy 203.2 59.69) (xy 201.93 59.69)
 		)
 		(stroke
@@ -7194,6 +7636,16 @@
 			(type default)
 		)
 		(uuid "85ba052f-3c22-4246-aa96-a2206665b807")
+	)
+	(wire
+		(pts
+			(xy 26.67 116.84) (xy 26.67 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "877af1e6-e013-4745-8b80-730602d2d1f5")
 	)
 	(wire
 		(pts
@@ -7227,13 +7679,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 109.22) (xy 50.8 109.22)
+			(xy 238.76 109.22) (xy 240.03 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "90d3f32b-6264-4bae-9719-c15f5fe67855")
+		(uuid "8ec5aff3-e5e4-4f2e-932a-561225a151f3")
 	)
 	(wire
 		(pts
@@ -7244,6 +7696,16 @@
 			(type default)
 		)
 		(uuid "9110c612-0f40-4f69-ab1a-e8073cf544fc")
+	)
+	(wire
+		(pts
+			(xy 233.68 116.84) (xy 229.87 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9149dd08-8412-49ee-9332-27158c0adeda")
 	)
 	(wire
 		(pts
@@ -7264,6 +7726,16 @@
 			(type dash)
 		)
 		(uuid "9718b3c7-044a-4190-9fdf-0b54009f2525")
+	)
+	(wire
+		(pts
+			(xy 48.26 113.03) (xy 48.26 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a2c954c-0717-4865-b221-d6bb2020b664")
 	)
 	(wire
 		(pts
@@ -7297,7 +7769,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 111.76) (xy 50.8 132.08)
+			(xy 50.8 111.76) (xy 50.8 134.62)
 		)
 		(stroke
 			(width 0)
@@ -7314,6 +7786,26 @@
 			(type default)
 		)
 		(uuid "ac0294f1-07db-4095-8dc2-b311aef62c44")
+	)
+	(wire
+		(pts
+			(xy 240.03 116.84) (xy 238.76 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac3ee435-b2ba-447c-bbde-73c4e9e82c1a")
+	)
+	(wire
+		(pts
+			(xy 240.03 111.76) (xy 238.76 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b29cd7f6-4885-40f8-8a5c-298196ba9e3f")
 	)
 	(wire
 		(pts
@@ -7397,6 +7889,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 113.03) (xy 41.91 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc419e2b-4ac0-43b3-954d-998e7af392b2")
+	)
+	(wire
+		(pts
 			(xy 237.49 45.72) (xy 237.49 44.45)
 		)
 		(stroke
@@ -7424,6 +7926,16 @@
 			(type default)
 		)
 		(uuid "c3ef22a3-c3cd-494d-8c6d-51d624072589")
+	)
+	(wire
+		(pts
+			(xy 196.85 54.61) (xy 203.2 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3ef35b4-8aa6-4ac2-b1aa-aa0ea8b98af5")
 	)
 	(wire
 		(pts
@@ -7467,7 +7979,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 132.08) (xy 50.8 133.35)
+			(xy 233.68 114.3) (xy 229.87 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0d96d66-eaa3-4355-be2e-356d402c2c09")
+	)
+	(wire
+		(pts
+			(xy 50.8 134.62) (xy 50.8 135.89)
 		)
 		(stroke
 			(width 0)
@@ -7507,7 +8029,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 60.96) (xy 198.12 59.69)
+			(xy 194.31 63.5) (xy 194.31 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7557,7 +8079,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 129.54) (xy 48.26 129.54)
+			(xy 55.88 132.08) (xy 48.26 132.08)
 		)
 		(stroke
 			(width 0)
@@ -7567,13 +8089,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 127) (xy 49.53 116.84)
+			(xy 26.67 109.22) (xy 26.67 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e0912489-1394-4f0d-baaf-0afa8eee2444")
+		(uuid "e15fbe87-cac4-4996-a7a6-e69c2f848575")
 	)
 	(wire
 		(pts
@@ -7657,26 +8179,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 109.22) (xy 50.8 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f319e712-b1b7-4001-8364-a79fc1f9b02d")
-	)
-	(wire
-		(pts
-			(xy 231.14 109.22) (xy 229.87 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f39bd72b-8d3d-4c1f-a9e5-c65129c64476")
-	)
-	(wire
-		(pts
 			(xy 203.2 57.15) (xy 201.93 57.15)
 		)
 		(stroke
@@ -7697,16 +8199,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 111.76) (xy 229.87 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7a5797a-7d84-45e7-b7d7-b05008d7ff12")
-	)
-	(wire
-		(pts
 			(xy 99.06 64.77) (xy 99.06 63.5)
 		)
 		(stroke
@@ -7714,6 +8206,16 @@
 			(type default)
 		)
 		(uuid "f8f5916d-33cc-47e6-814e-9d98a0dbc749")
+	)
+	(wire
+		(pts
+			(xy 55.88 129.54) (xy 49.53 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb75a6a3-7b6f-4f78-96f4-b32ccabab392")
 	)
 	(wire
 		(pts
@@ -7734,6 +8236,16 @@
 			(type default)
 		)
 		(uuid "fd2cf838-a3ac-44ac-b444-286b8281cf12")
+	)
+	(wire
+		(pts
+			(xy 196.85 39.37) (xy 196.85 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffd2222c-ea42-4fff-a1eb-ca17cccbf8f5")
 	)
 	(polyline
 		(pts
@@ -7859,7 +8371,7 @@
 	)
 	(global_label "DAC_R"
 		(shape input)
-		(at 46.99 114.3 180)
+		(at 40.64 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7869,7 +8381,7 @@
 		)
 		(uuid "0bd5f027-fe12-4a00-99a4-d26f6387f2d4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.1386 114.3 0)
+			(at 31.7886 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7925,7 +8437,7 @@
 	)
 	(global_label "SD_DAT"
 		(shape input)
-		(at 195.58 46.99 180)
+		(at 191.77 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7935,7 +8447,7 @@
 		)
 		(uuid "301b4a12-648e-4e58-947f-b4aefa480c28")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.8215 46.99 0)
+			(at 182.0115 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8011,9 +8523,31 @@
 			)
 		)
 	)
+	(global_label "~{CARD_DET}"
+		(shape input)
+		(at 240.03 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66183582-0e19-43b8-8c84-74823261cf73")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.268 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SD_CMD"
 		(shape input)
-		(at 195.58 52.07 180)
+		(at 191.77 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8023,7 +8557,29 @@
 		)
 		(uuid "688d8cc1-07e6-4598-a462-aa0bd7cfa933")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.1563 52.07 0)
+			(at 181.3463 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{CARD_DET}"
+		(shape input)
+		(at 191.77 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c0d9193-948a-447e-a895-b10093c1432a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.532 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8035,7 +8591,7 @@
 	)
 	(global_label "SD_CLK"
 		(shape input)
-		(at 195.58 49.53 180)
+		(at 191.77 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8045,7 +8601,7 @@
 		)
 		(uuid "923b9925-e66a-4a33-a4bc-c365ff47ecda")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.5796 49.53 0)
+			(at 181.7696 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8079,7 +8635,7 @@
 	)
 	(global_label "MY_RX"
 		(shape input)
-		(at 231.14 111.76 0)
+		(at 240.03 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8089,7 +8645,7 @@
 		)
 		(uuid "a6b49925-dcfe-4730-9b57-89372ecc6b58")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.1123 111.76 0)
+			(at 249.0023 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8145,7 +8701,7 @@
 	)
 	(global_label "BUSY"
 		(shape input)
-		(at 231.14 114.3 0)
+		(at 240.03 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8155,7 +8711,7 @@
 		)
 		(uuid "bbd2551c-4c10-49ca-890c-5a9a844df6fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.0238 114.3 0)
+			(at 247.9138 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8167,7 +8723,7 @@
 	)
 	(global_label "DAC_L"
 		(shape input)
-		(at 46.99 116.84 180)
+		(at 40.64 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8177,7 +8733,7 @@
 		)
 		(uuid "c6098483-7e6f-4f9d-8235-0005da472c64")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.3805 116.84 0)
+			(at 32.0305 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8211,7 +8767,7 @@
 	)
 	(global_label "MY_TX"
 		(shape input)
-		(at 231.14 109.22 0)
+		(at 240.03 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8221,7 +8777,7 @@
 		)
 		(uuid "e4429d27-cf88-4e65-bcf8-ec9ffe7709a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.8099 109.22 0)
+			(at 248.6999 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8255,7 +8811,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Resistor:1k_0603")
-		(at 198.12 57.15 90)
+		(at 194.31 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8264,7 +8820,7 @@
 		(fields_autoplaced yes)
 		(uuid "00dcc227-0626-44e3-84ff-ac8a4b1d6f7b")
 		(property "Reference" "R6"
-			(at 195.58 55.8799 90)
+			(at 191.77 58.4199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8273,7 +8829,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 195.58 58.4199 90)
+			(at 191.77 60.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8282,7 +8838,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Resistor:R_0603_1608Metric"
-			(at 202.692 57.15 0)
+			(at 198.882 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8291,7 +8847,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 207.01 58.42 0)
+			(at 203.2 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8300,7 +8856,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 209.55 57.15 0)
+			(at 205.74 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8309,7 +8865,7 @@
 			)
 		)
 		(property "PROD_ID" "RES-07856"
-			(at 204.978 57.15 0)
+			(at 201.168 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8406,6 +8962,71 @@
 			(project ""
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 54.61 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "097bf919-7d5a-4b2a-9ed2-c16869bd2585")
+		(property "Reference" "#PWR031"
+			(at 54.61 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 54.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 54.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74ee1e2e-5047-43f0-b698-7bcac4adc1eb")
+		)
+		(instances
+			(project "SparkFun_Serial_MP3_Player_Shield_MY1690X"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -8747,6 +9368,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 196.85 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b6ee5db-77bb-4f3f-9027-78d237758fa2")
+		(property "Reference" "#PWR033"
+			(at 196.85 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 196.85 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 196.85 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1b0ed34-cf09-4dba-8e56-0732ccc3e2c6")
+		)
+		(instances
+			(project "SparkFun_Serial_MP3_Player_Shield_MY1690X"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-DiscreteSemi:D_Schottky_3A_10V_0.28V")
 		(at 45.72 171.45 270)
 		(mirror x)
@@ -9025,6 +9711,244 @@
 			(project "SparkFun_MP3_Serial_MY1690X_Breakout"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Connector:Conn_01x04")
+		(at 60.96 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22f44485-33f7-4fe0-86e3-0778cc3af96f")
+		(property "Reference" "J2"
+			(at 63.5 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 63.5 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:1x04"
+			(at 60.96 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 60.96 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "baf57a5d-b9c3-4d0e-91d5-a8a8cbdeff66")
+		)
+		(pin "3"
+			(uuid "bd6ea53d-b32d-49c1-bd68-baa6d1195713")
+		)
+		(pin "4"
+			(uuid "2d0d5275-c6dc-4c64-9d5b-498ea99ee3ae")
+		)
+		(pin "1"
+			(uuid "e1f2336a-9a4a-41b9-9657-1700ed089a52")
+		)
+		(instances
+			(project ""
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Capacitor:10uF_0603_6.3V_20%")
+		(at 44.45 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23fffb11-764f-40b2-941a-04beb9e68167")
+		(property "Reference" "C4"
+			(at 44.4563 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 44.4563 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Capacitor:C_0603_1608Metric"
+			(at 55.88 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+			(at 60.96 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 63.5 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CAP-11015"
+			(at 58.42 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "6.3V"
+			(at 44.4563 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 44.4563 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e1859607-4e4b-4482-bfa5-03342afccf70")
+		)
+		(pin "2"
+			(uuid "d9169c8d-a503-4698-a6fa-b403d25998fd")
+		)
+		(instances
+			(project ""
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Jumper:SolderJumper_2_Bridged")
+		(at 26.67 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2516452b-1bd6-490c-b77f-956443898796")
+		(property "Reference" "JP7"
+			(at 24.638 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "MIC"
+			(at 29.21 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Jumper:Jumper_2_NC_Trace"
+			(at 31.242 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 26.67 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ddbde90-b5d1-421d-a90f-51003a99a740")
+		)
+		(pin "2"
+			(uuid "8198f98d-c6d8-4aa9-9049-5debb42aff4e")
+		)
+		(instances
+			(project "SparkFun_Serial_MP3_Player_Shield_MY1690X"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "JP7")
 					(unit 1)
 				)
 			)
@@ -9390,6 +10314,99 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Capacitor:10uF_0603_6.3V_20%")
+		(at 44.45 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c84036a-d556-4802-821c-c2bfe7b07469")
+		(property "Reference" "C5"
+			(at 44.4563 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 44.4563 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Capacitor:C_0603_1608Metric"
+			(at 55.88 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+			(at 60.96 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 63.5 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CAP-11015"
+			(at 58.42 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "6.3V"
+			(at 44.4563 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 44.4563 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e533b528-f5de-4e43-b9a7-2b888ae64989")
+		)
+		(pin "2"
+			(uuid "11c050b4-9640-4744-9f38-14ea1c59e5fd")
+		)
+		(instances
+			(project "SparkFun_Serial_MP3_Player_Shield_MY1690X"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-PowerSymbol:5V")
 		(at 203.2 102.87 0)
 		(unit 1)
@@ -9451,6 +10468,74 @@
 			(project ""
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Jumper:Jumper_Measure")
+		(at 236.22 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41d2daa2-6607-4799-a2b6-c21ccac9871e")
+		(property "Reference" "JP5"
+			(at 236.22 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "RX"
+			(at 233.68 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Jumper:Jumper_2_PTH_SMD_Combo-NC"
+			(at 235.966 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 236.22 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1606b8ca-8a0f-47f0-be19-8cf03beeedf5")
+		)
+		(pin "2"
+			(uuid "8767be2f-9d09-4709-aa35-a4dd6d0e2da8")
+		)
+		(instances
+			(project "SparkFun_Serial_MP3_Player_Shield_MY1690X"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -9667,15 +10752,15 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
-		(at 198.12 60.96 0)
+		(at 26.67 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "577a1f8f-e3be-4256-81e9-e6bc54b1836c")
-		(property "Reference" "#PWR019"
-			(at 198.12 67.31 0)
+		(uuid "520d9d6c-cb53-49e4-91e9-5b4b156c2be9")
+		(property "Reference" "#PWR030"
+			(at 26.67 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9684,7 +10769,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 198.12 64.77 0)
+			(at 26.67 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9692,7 +10777,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 60.96 0)
+			(at 26.67 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9701,7 +10786,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 60.96 0)
+			(at 26.67 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9710,7 +10795,72 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 60.96 0)
+			(at 26.67 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be61e188-d85f-459f-b0f0-02ae4ea41a2d")
+		)
+		(instances
+			(project "SparkFun_Serial_MP3_Player_Shield_MY1690X"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:GND")
+		(at 194.31 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "577a1f8f-e3be-4256-81e9-e6bc54b1836c")
+		(property "Reference" "#PWR019"
+			(at 194.31 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 194.31 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 194.31 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9992,79 +11142,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Connector:Conn_01x03")
-		(at 57.15 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62510e18-edb1-4eda-a901-8e791a64e4ff")
-		(property "Reference" "J3"
-			(at 57.15 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 57.15 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SparkFun-Connector:1x03"
-			(at 57.15 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 57.15 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e8dd8069-fc0b-42c2-9b35-251d78b0989b")
-		)
-		(pin "3"
-			(uuid "62dcc52e-caf8-484a-b4a8-45d5a355d4a7")
-		)
-		(pin "2"
-			(uuid "7863996e-80a9-4932-bbda-b8f4e190fed5")
-		)
-		(instances
-			(project ""
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-LED:LED_Green_0603")
 		(at 115.57 186.69 90)
 		(unit 1)
@@ -10138,6 +11215,74 @@
 			(project "SparkFun_Serial_MP3_Player_Shield_MY1690X"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Jumper:Jumper_Measure")
+		(at 236.22 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6cf829e5-3a05-4f0f-ae2b-08de1c7e52ac")
+		(property "Reference" "JP3"
+			(at 236.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CD"
+			(at 233.68 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Jumper:Jumper_2_PTH_SMD_Combo-NC"
+			(at 235.966 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 236.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4af466aa-cb5d-41ad-92c2-2f47954a937d")
+		)
+		(pin "2"
+			(uuid "11d75b02-7aa0-44aa-8123-345c0a150d1d")
+		)
+		(instances
+			(project ""
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -10452,6 +11597,85 @@
 			(project "SparkFun_Serial_MP3_Player_Shield_MY1690X"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Resistor:10k_0603")
+		(at 196.85 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76b5b7c0-eb7b-4572-86f6-acdd831017a1")
+		(property "Reference" "R7"
+			(at 199.39 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 199.39 44.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SparkFun-Resistor:R_0603_1608Metric"
+			(at 201.168 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 205.74 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 208.28 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "RES-00824"
+			(at 203.2 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c141a2bf-e03a-446a-bfc6-e64041463455")
+		)
+		(pin "1"
+			(uuid "4e1b5098-bed6-4380-af08-c84a5d1dc020")
+		)
+		(instances
+			(project "SparkFun_Serial_MP3_Player_Shield_MY1690X"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -11908,7 +13132,75 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Connector:Audio Jack TRRS 3.5mm SMD")
+		(lib_id "SparkFun-Jumper:Jumper_Measure")
+		(at 236.22 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2d7db6e-ffd5-4066-9547-c644801dfc93")
+		(property "Reference" "JP6"
+			(at 236.22 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TX"
+			(at 233.68 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Jumper:Jumper_2_PTH_SMD_Combo-NC"
+			(at 235.966 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 236.22 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "016e59fb-05d7-441e-be41-767989cea484")
+		)
+		(pin "2"
+			(uuid "7cca07fe-9713-4d05-b2f6-87c1953a012d")
+		)
+		(instances
+			(project "SparkFun_Serial_MP3_Player_Shield_MY1690X"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "JP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Connector:Audio_Jack_TRRS_3.5mm_SMD")
 		(at 57.15 111.76 0)
 		(mirror y)
 		(unit 1)
@@ -11926,7 +13218,7 @@
 			)
 		)
 		(property "Value" "3.5mm TRRS"
-			(at 59.69 105.41 0)
+			(at 57.15 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11961,6 +13253,15 @@
 			)
 		)
 		(property "PROD-ID" "CONN-10676"
+			(at 57.15 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CONN-10676"
 			(at 57.15 128.27 0)
 			(effects
 				(font
@@ -12338,6 +13639,74 @@
 			(project "SparkFun_MP3_Serial_MY1690X_Breakout"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Jumper:Jumper_Measure")
+		(at 236.22 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2300471-b937-4951-8a58-799f6d3c65a4")
+		(property "Reference" "JP4"
+			(at 236.22 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "BUSY"
+			(at 232.41 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Jumper:Jumper_2_PTH_SMD_Combo-NC"
+			(at 235.966 118.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 236.22 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00c3de45-f6b2-41c5-b7bd-6ff1cbfc58c6")
+		)
+		(pin "2"
+			(uuid "b326fe2f-9251-4226-9cd0-de3e80efdf3d")
+		)
+		(instances
+			(project "SparkFun_Serial_MP3_Player_Shield_MY1690X"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -13051,15 +14420,16 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
-		(at 50.8 133.35 0)
+		(at 50.8 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "ff84adb3-566e-4bfc-9440-d039257a173d")
 		(property "Reference" "#PWR04"
-			(at 50.8 139.7 0)
+			(at 50.8 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13068,7 +14438,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 137.16 0)
+			(at 50.8 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13076,7 +14446,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 133.35 0)
+			(at 50.8 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13085,7 +14455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 133.35 0)
+			(at 50.8 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13094,7 +14464,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 133.35 0)
+			(at 50.8 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
