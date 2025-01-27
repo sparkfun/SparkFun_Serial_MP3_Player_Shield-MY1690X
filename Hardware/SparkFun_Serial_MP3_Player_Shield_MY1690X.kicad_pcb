@@ -3592,6 +3592,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3603,6 +3604,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3829,6 +3831,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3840,6 +3843,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6513,25 +6517,12 @@
 				)
 			)
 		)
-		(property "PROD-ID" "CONN-10676"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "569724c2-4f48-433c-a5ac-7adc6213bbc5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "PROD_ID" "CONN-10676"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "22e0a5b2-ff92-4bac-935b-b6f6497b7b8c")
+			(uuid "569724c2-4f48-433c-a5ac-7adc6213bbc5")
 			(effects
 				(font
 					(size 1 1)
@@ -7856,7 +7847,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "SparkFun resistor")
 		(property "Reference" "R7"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.Fab")
 			(uuid "158a97e1-7acb-4465-ae60-0dc356480d71")
 			(effects
@@ -7868,7 +7859,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "fd62215f-b2cc-4ad3-b70f-4e832b5baa81")
 			(effects
@@ -8982,6 +8973,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8993,6 +8985,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9084,6 +9077,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9095,6 +9089,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13425,6 +13420,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13436,6 +13432,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15195,6 +15192,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15206,6 +15204,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16429,6 +16428,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -16441,6 +16441,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -16757,7 +16758,7 @@
 		(at 160.02 111.4425 180)
 		(tags "SparkFun")
 		(property "Reference" "JP7"
-			(at 0 1.143 360)
+			(at 0 1.143 0)
 			(layer "B.Fab")
 			(uuid "932fcc46-70d7-4f3b-8d16-011240bbca50")
 			(effects
@@ -16770,7 +16771,7 @@
 			)
 		)
 		(property "Value" "MIC"
-			(at 0 -1.143 360)
+			(at 0 -1.143 0)
 			(layer "B.Fab")
 			(uuid "5782739e-4d9c-4171-a104-3b775c98cced")
 			(effects
@@ -16895,7 +16896,7 @@
 		)
 		(fp_arc
 			(start 0.762 -1.016)
-			(mid 1.08529 -0.88209)
+			(mid 1.085289 -0.882089)
 			(end 1.2192 -0.5588)
 			(stroke
 				(width 0.1524)

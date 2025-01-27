@@ -13252,15 +13252,6 @@
 				(hide yes)
 			)
 		)
-		(property "PROD-ID" "CONN-10676"
-			(at 57.15 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PROD_ID" "CONN-10676"
 			(at 57.15 128.27 0)
 			(effects
