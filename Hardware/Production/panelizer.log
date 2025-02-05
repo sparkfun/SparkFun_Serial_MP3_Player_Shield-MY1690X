@@ -1,13 +1,13 @@
-2025-01-27 15:29:38,418 - panelizer_logger - INFO - Running Panelizer
-2025-01-27 15:29:38,420 - panelizer_logger - INFO - ['--panelx', '139.700000', '--panely', '190.500000', '--smaller', '--vscorelayer', 'User.Comments', '--vscoretextlayer', 'User.Comments', '--gapx', '0.000000', '--gapy', '2.540000', '--hrail', '6.35', '--vrail', '6.35', '--fiducialpos', '0.25', '--fiducialslr']
-2025-01-27 15:29:38,421 - panelizer_logger - INFO - PANELIZER START: 2025-01-27T15:29:38.421654
-2025-01-27 15:29:41,954 - panelizer_logger - INFO - 
-START: 2025-01-27T15:29:38.421654
+2025-02-05 15:45:22,824 - panelizer_logger - INFO - Running Panelizer
+2025-02-05 15:45:22,825 - panelizer_logger - INFO - ['--panelx', '139.700000', '--panely', '190.500000', '--smaller', '--vscorelayer', 'User.Comments', '--vscoretextlayer', 'User.Comments', '--gapx', '0.000000', '--gapy', '2.540000', '--hrail', '6.35', '--vrail', '6.35', '--fiducialpos', '0.25', '--fiducialslr']
+2025-02-05 15:45:22,826 - panelizer_logger - INFO - PANELIZER START: 2025-02-05T15:45:22.826015
+2025-02-05 15:45:26,257 - panelizer_logger - INFO - 
+START: 2025-02-05T15:45:22.826015
 Board saved by user.
 Zones filled by user.
 
-Board: C:/Users/nathan.seidle/Dropbox/Projects/SparkFun_Serial_MP3_Player_Shield-MY1690X/Hardware\Production\SparkFun_Serial_MP3_Player_Shield_MY1690X_panelized.kicad_pcb
+Board: C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_Serial_MP3_Player_Shield-MY1690X\Hardware\Production\SparkFun_Serial_MP3_Player_Shield_MY1690X_panelized.kicad_pcb
 Board dimensions: 53.34 x 59.69 mm.
 You can fit 2 x 3 boards on the panel.
 
-2025-01-27 15:29:42,816 - panelizer_logger - INFO - Panelizer complete
+2025-02-05 15:45:27,461 - panelizer_logger - INFO - Panelizer complete

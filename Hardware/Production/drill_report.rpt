@@ -1,0 +1,27 @@
+Drill report for SparkFun_Serial_MP3_Player_Shield_MY1690X_panelized.kicad_pcb
+Created on 2025-02-05T15:45:42-0700
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'SparkFun_Serial_MP3_Player_Shield_MY1690X_panelized.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (270 holes)
+    T2  0.600mm  0.0236"  (24 holes)  (with 24 slots)
+    T3  1.016mm  0.0400"  (300 holes)
+
+    Total plated holes count 594
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+    T4  0.650mm  0.0256"  (12 holes)
+    T5  1.000mm  0.0394"  (12 holes)
+    T6  1.200mm  0.0472"  (12 holes)
+
+    Total unplated holes count 36

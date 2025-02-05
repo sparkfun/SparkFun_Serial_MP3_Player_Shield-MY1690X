@@ -1,0 +1,28 @@
+2025-02-05 15:45:36,251 - cammer_logger - INFO - Running CAMmer
+2025-02-05 15:45:36,252 - cammer_logger - INFO - ['-l', 'F.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask', '-e', 'Edge.Cuts,User.Comments']
+2025-02-05 15:45:36,252 - cammer_logger - INFO - CAMMER START: 2025-02-05T15:45:36.252222
+2025-02-05 15:45:41,076 - cammer_logger - INFO - Running CAMmer
+2025-02-05 15:45:41,077 - cammer_logger - INFO - ['-l', 'F.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask', '-e', 'Edge.Cuts,User.Comments']
+2025-02-05 15:45:41,077 - cammer_logger - INFO - CAMMER START: 2025-02-05T15:45:41.077883
+2025-02-05 15:45:42,174 - cammer_logger - INFO - 
+START: 2025-02-05T15:45:41.077883
+Deleting existing C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_Serial_MP3_Player_Shield-MY1690X\Hardware\Production\SparkFun_Serial_MP3_Player_Shield_MY1690X_panelized.GTL
+Renaming C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_Serial_MP3_Player_Shield-MY1690X\Hardware\Production\SparkFun_Serial_MP3_Player_Shield_MY1690X_panelized-F_Cu.gbr to C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_Serial_MP3_Player_Shield-MY1690X\Hardware\Production\SparkFun_Serial_MP3_Player_Shield_MY1690X_panelized.GTL
+Deleting existing C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_Serial_MP3_Player_Shield-MY1690X\Hardware\Production\SparkFun_Serial_MP3_Player_Shield_MY1690X_panelized.GBL
+Renaming C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_Serial_MP3_Player_Shield-MY1690X\Hardware\Production\SparkFun_Serial_MP3_Player_Shield_MY1690X_panelized-B_Cu.gbr to C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_Serial_MP3_Player_Shield-MY1690X\Hardware\Production\SparkFun_Serial_MP3_Player_Shield_MY1690X_panelized.GBL
+Renaming C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_Serial_MP3_Player_Shield-MY1690X\Hardware\Production\SparkFun_Serial_MP3_Player_Shield_MY1690X_panelized-F_Paste.gbr to C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_Serial_MP3_Player_Shield-MY1690X\Hardware\Production\SparkFun_Serial_MP3_Player_Shield_MY1690X_panelized.GTP
+Deleting existing C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_Serial_MP3_Player_Shield-MY1690X\Hardware\Production\SparkFun_Serial_MP3_Player_Shield_MY1690X_panelized.GBP
+Renaming C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_Serial_MP3_Player_Shield-MY1690X\Hardware\Production\SparkFun_Serial_MP3_Player_Shield_MY1690X_panelized-B_Paste.gbr to C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_Serial_MP3_Player_Shield-MY1690X\Hardware\Production\SparkFun_Serial_MP3_Player_Shield_MY1690X_panelized.GBP
+Deleting existing C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_Serial_MP3_Player_Shield-MY1690X\Hardware\Production\SparkFun_Serial_MP3_Player_Shield_MY1690X_panelized.GTO
+Renaming C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_Serial_MP3_Player_Shield-MY1690X\Hardware\Production\SparkFun_Serial_MP3_Player_Shield_MY1690X_panelized-F_Silkscreen.gbr to C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_Serial_MP3_Player_Shield-MY1690X\Hardware\Production\SparkFun_Serial_MP3_Player_Shield_MY1690X_panelized.GTO
+Deleting existing C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_Serial_MP3_Player_Shield-MY1690X\Hardware\Production\SparkFun_Serial_MP3_Player_Shield_MY1690X_panelized.GBO
+Renaming C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_Serial_MP3_Player_Shield-MY1690X\Hardware\Production\SparkFun_Serial_MP3_Player_Shield_MY1690X_panelized-B_Silkscreen.gbr to C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_Serial_MP3_Player_Shield-MY1690X\Hardware\Production\SparkFun_Serial_MP3_Player_Shield_MY1690X_panelized.GBO
+Deleting existing C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_Serial_MP3_Player_Shield-MY1690X\Hardware\Production\SparkFun_Serial_MP3_Player_Shield_MY1690X_panelized.GTS
+Renaming C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_Serial_MP3_Player_Shield-MY1690X\Hardware\Production\SparkFun_Serial_MP3_Player_Shield_MY1690X_panelized-F_Mask.gbr to C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_Serial_MP3_Player_Shield-MY1690X\Hardware\Production\SparkFun_Serial_MP3_Player_Shield_MY1690X_panelized.GTS
+Deleting existing C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_Serial_MP3_Player_Shield-MY1690X\Hardware\Production\SparkFun_Serial_MP3_Player_Shield_MY1690X_panelized.GBS
+Renaming C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_Serial_MP3_Player_Shield-MY1690X\Hardware\Production\SparkFun_Serial_MP3_Player_Shield_MY1690X_panelized-B_Mask.gbr to C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_Serial_MP3_Player_Shield-MY1690X\Hardware\Production\SparkFun_Serial_MP3_Player_Shield_MY1690X_panelized.GBS
+Deleting existing C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_Serial_MP3_Player_Shield-MY1690X\Hardware\Production\SparkFun_Serial_MP3_Player_Shield_MY1690X_panelized.GKO
+Renaming C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_Serial_MP3_Player_Shield-MY1690X\Hardware\Production\SparkFun_Serial_MP3_Player_Shield_MY1690X_panelized-Edge_Cuts.gbr to C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_Serial_MP3_Player_Shield-MY1690X\Hardware\Production\SparkFun_Serial_MP3_Player_Shield_MY1690X_panelized.GKO
+Drill report: C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_Serial_MP3_Player_Shield-MY1690X\Hardware\Production\drill_report.rpt
+
+2025-02-05 15:45:43,124 - cammer_logger - INFO - CAMmer complete
