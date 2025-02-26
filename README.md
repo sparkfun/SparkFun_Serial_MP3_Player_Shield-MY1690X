@@ -9,9 +9,31 @@ SparkFun Serial MP3 Player Shield - MY1690X
 
 
 
+Repository Contents
+-------------------
+
+* **.github/workflows** - YAML files used for GitHub Actions and GitHub Pages/mkdocs
+* **/Hardware** - KiCad design files (.kicad_pcb, .kicad_sch, .kicad_pro)
+  * **/Production** - Production panel files (.kicad_pcb)
+* **/docs** - Online documentation files
+  * **/assets** - Folder containing all the file assets used for product documentation
+    * **/board_files** - Copy of design files used for product documentation
+    * **/component_documentation** - Datasheets and manuals for hardware components
+    * **/img** - Images for product documentation
+  * **/github** - Files stating how to contribute and filing issues used for product documentation
+  * **/javascript** - Folder containing custom javascript used for product documentation
+  * **/stylesheet** - Folder containing CSS files used for product documentation
+* **/overrides** - Customization files used for product documentation
+  * **/.icons** - Icons used for GitHub used for product documentation
+  * **./partials** - Used for product documentation
+
+
+
 Documentation
 --------------
-* **[Hookup Guide](https://github.com/sparkfun/SparkFun_Serial_MP3_Player_Shield-MY1690X)** - Basic hookup guide for the SparkFun Serial MP3 Player Shield - MY1690X.
+
+* **[Arduino Library](https://github.com/sparkfun/SparkFun_MY1690_MP3_Decoder_Arduino_Library/)** - Arduino Library for the SparkFun Serial MP3 Player Shield - MY1690X.
+* **[Hookup Guide](https://docs.sparkfun.com/SparkFun_Serial_MP3_Player_Shield-MY1690X)** - Basic hookup guide for the SparkFun Serial MP3 Player Shield - MY1690X.
 
 
 
@@ -19,6 +41,8 @@ Documentation
 Product Versions
 ----------------
 * [DEV-28021](https://www.sparkfun.com/catalog/product/view/id/28021) - v1.0
+
+
 
 Version History
 ---------------
