@@ -22,13 +22,12 @@
 
 #include "SparkFun_MY1690_MP3_Library.h" // Click here to get the library: http://librarymanager/All#SparkFun_MY1690
 
-//For boards that support software serial
-//#include "SoftwareSerial.h"
-//SoftwareSerial serialMP3(8, 9); //format:(rx, tx) - RX on Arduino connected to TX on MY1690's, TX on Arduino connected to the MY1690's RX pin
+//For boards that support software serial, Arduino Uno, etc.
+#include "SoftwareSerial.h"
+SoftwareSerial serialMP3(8, 9); //format:(rx, tx) - RX on Arduino connected to TX on MY1690's, TX on Arduino connected to the MY1690's RX pin
 
-//For boards that have multiple hardware serial ports
-HardwareSerial serialMP3(2); //Create serial port on ESP32: pins are defined below
-//HardwareSerial serialMP3(1);
+//For boards that have multiple hardware serial ports, ESP32, etc.
+//HardwareSerial serialMP3(1); //Create serial port on ESP32: pins are defined below
 
 MY1690 myMP3;
 
@@ -40,7 +39,7 @@ void setup()
 
   serialMP3.begin(9600); //The MY1690 expects serial communication at 9600bps
 
-  serialMP3.begin(9600, SERIAL_8N1, 26, 27); //Uncomment for ESP32: Assign pins RX, TX
+  //serialMP3.begin(9600, SERIAL_8N1, 26, 27); //Uncomment for ESP32: Assign pins RX, TX
 
   if (myMP3.begin(serialMP3) == false) // Beginning the MP3 player requires a serial port (either hardware or software)
   {
