@@ -5,9 +5,7 @@ SparkFun Serial MP3 Player Shield - MY1690X
 
 [*SparkFun Serial MP3 Player Shield - MY1690X (DEV-28021)*](https://www.sparkfun.com/catalog/product/view/id/28021)
 
-<Basic description of the part.>
-
-
+The SparkFun Serial MP3 Player Shield - MY1690X is an R3 Arduino shield built around the MY1690X audio decoder IC. The MY1691X supports both .WAV and .MP3 audio files stored on a connected microSD card with up to 32GB capacity and formatted to FAT16 or FAT32. The MY1690X communicates over serial UART so we designed this shield to allow users to control the MY1690X while mounted on a compatible Arduino development board with an R4 footprint. 
 
 Repository Contents
 -------------------
