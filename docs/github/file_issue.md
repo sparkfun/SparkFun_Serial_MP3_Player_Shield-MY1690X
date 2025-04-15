@@ -7,7 +7,7 @@ Spot something wrong? Please let us know. <a href="https://github.com/sparkfun/S
 
 All of our documentation can be modified by you! Please help us make it better.
 
-* The documentation files for these pages are contained in the [`docs` folder](https://github.com/sparkfun/SparkFun_Serial_MP3_Player_Shield-MY1690X/tree/main/docs) of the [<Official Product Name> repository](https://github.com/sparkfun/SparkFun_Serial_MP3_Player_Shield-MY1690X).
+* The documentation files for these pages are contained in the [`docs` folder](https://github.com/sparkfun/SparkFun_Serial_MP3_Player_Shield-MY1690X/tree/main/docs) of the [SparkFun Serial MP3 Player Shield - MY1690X repository](https://github.com/sparkfun/SparkFun_Serial_MP3_Player_Shield-MY1690X).
 
 ### 🔍 Spot something wrong?
 
@@ -25,7 +25,7 @@ If a section of the documentation is incorrect, please [open an issue](https://g
 
 All of our designs are open-source! Please help us make it better.
 
-* Our board design files are contained in the [`Hardware` folder](https://github.com/sparkfun/SparkFun_Serial_MP3_Player_Shield-MY1690X/tree/main/Hardware) of the [<Official Product Name> repository](https://github.com/sparkfun/SparkFun_Serial_MP3_Player_Shield-MY1690X).
+* Our board design files are contained in the [`Hardware` folder](https://github.com/sparkfun/SparkFun_Serial_MP3_Player_Shield-MY1690X/tree/main/Hardware) of the [SparkFun Serial MP3 Player Shield - MY1690X repository](https://github.com/sparkfun/SparkFun_Serial_MP3_Player_Shield-MY1690X).
 
 ### Does something not make sense? 🤔
 
